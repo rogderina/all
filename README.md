@@ -1,0 +1,3 @@
+- папка chek_stream - автотесты на pyton, проверяющие как front, так и back. Задействован prometeus для сбора и передачи метрик. Тест для нагрузочного тестирования на k6
+- папка chek_crypto - автотесты на TypeScript, проверка работы front с помощь. data-selectors.
+- папка chek_front_cypress - автотесты на JavaScript и Cypress, проверка работы front с помощь. data-selectors.
