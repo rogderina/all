@@ -1,0 +1,20 @@
+---
+include:
+  - project: 'Visitstats/analitic'
+    ref: master
+    file: '/ci-tpl-docker.yml'
+
+stages:
+  - build
+
+
+Build:
+  stage: build
+  only:
+    - tags
+  extends:
+    - .ext-docker-build
+  variables:
+    DOCKER_CONTEXT_PATH: "./"
+    DOCKER_BUILD_FILE: "./Dockerfile"
+    DOCKER_IMAGE_SUFFIX: "Visitstats"
