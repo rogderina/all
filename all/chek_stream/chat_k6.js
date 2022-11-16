@@ -17,13 +17,13 @@ export let options = {
      ],
      headers: {
         "Content-Type": "application/json",
-         "Authtoken": "eyJuaWNrIjoi0LDQu9C40L3QsNCwIiwiaWQiOiI0MTcwNTEifQ==_1653342465_cdab94e9b2e88f22daa7ccc59e8cb37b"
+         "Authtoken": ""
     },
 };
 
 let head = {  headers: {
         "Content-Type": "application/json",
-         "Authtoken": "eyJuaWNrIjoi0LDQu9C40L3QsNCwIiwiaWQiOiI0MTcwNTEifQ==_1653342465_cdab94e9b2e88f22daa7ccc59e8cb37b"
+         "Authtoken": ""
     },
 };
 export default function () {
